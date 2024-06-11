@@ -1,0 +1,104 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #78edf7;
+    color: #0b0909;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  body {
+    background-color: #e1f4f4; /* Change the color code to your desired background color */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: upper-roman;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-flex;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(15, 6, 15);
+    text-decoration: rgb(215, 204, 187);
+    font-weight: 500;
+  }
+  
+  .intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: inherit;
+    font-feature-settings: "cswh";
+    padding: 20px;
+  }
+  
+  .pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .pet {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .pet img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .pet h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .pet p {
+    margin: 5px 0;
+  }
+
+  .pet img:hover {
+    transform: scale(1.1); 
+  }
+  
+
+  .adopt-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #261bbc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .adopt-button:hover {
+    background-color: #c82c1b;
+  }
+  
+  
+  footer {
+    background-color: #78eefb;
+    color: rgb(9, 6, 6);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  
